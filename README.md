@@ -1,9 +1,9 @@
-Project Title : Cardiovascular Risk Prediction
-Problem Description
+# Project Title : Cardiovascular Risk Prediction
+## Problem Description
 The dataset is from an ongoing cardiovascular study on residents of the town of Framingham, Massachusetts. The classification goal is to predict whether the patient has a 10-year risk of future coronary heart disease (CHD). The dataset provides the patients’ information. It includes over 4,000 records and 15 attributes.
 
-Data Description
-Demographic:
+## Data Description
+
 ### Sex: male or female("M" or "F")
 ### Age: Age of the patient;(Continuous - Although the recorded ages have been truncated to whole numbers, the concept of age is continuous) Behavioral
 ### is_smoking: whether or not the patient is a current smoker ("YES" or "NO")
