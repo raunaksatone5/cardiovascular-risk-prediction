@@ -21,8 +21,13 @@ The dataset is from an ongoing cardiovascular study on residents of the town of 
 * Glucose: glucose level (Continuous) Predict variable (desired target)
 * 10-year risk of coronary heart disease CHD(binary: “1”, means “Yes”, “0” means “No”) - DV
 ## Business Use Case:
-* For the Health care Industry it would be very beneficial to know the risk related to heart failures beforehand in order to take preventive measures.
-* This project can also be used to predict the risk of other diseases.
+* Early Risk Detection: By using cardiovascular risk prediction models, healthcare providers can identify patients who are at high risk of cardiovascular disease and take preventive measures.
+* Personalized Treatment Planning: Predictive models can help healthcare providers tailor treatment plans based on a patient's individual risk profile, leading to more effective and personalized care.
+* Improved Patient Outcomes: By detecting cardiovascular risk early and taking proactive measures, healthcare providers can reduce the incidence of heart disease and improve patient outcomes.
+* Better Resource Allocation: Predictive models can help healthcare providers prioritize patients based on their risk level, leading to more efficient use of resources and improved patient care.
+* Reduction in Healthcare Costs: By detecting and treating cardiovascular risk early, healthcare providers can reduce the cost of treatment and improve patient outcomes, leading to overall cost savings.
+* Improved Public Health: By detecting cardiovascular risk early and implementing preventive measures, healthcare providers can improve public health and reduce the incidence of heart disease in the general population.
+
 ## Data Pre-Processing
 * Got the descriptive information of the data.
 * checked for null values if any
