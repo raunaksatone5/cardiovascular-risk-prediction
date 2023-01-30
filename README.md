@@ -20,3 +20,36 @@ The dataset is from an ongoing cardiovascular study on residents of the town of 
 * Heart Rate: heart rate (Continuous - In medical research, variables such as heart rate though in fact discrete, yet are considered continuous because of large number of possible values.)
 * Glucose: glucose level (Continuous) Predict variable (desired target)
 * 10-year risk of coronary heart disease CHD(binary: “1”, means “Yes”, “0” means “No”) - DV
+## Business Use Case:
+* For the Health care Industry it would be very beneficial to know the risk related to heart failures beforehand in order to take preventive measures.
+* This project can also be used to predict the risk of other diseases.
+## Data Pre-Processing
+* Got the descriptive information of the data.
+* checked for null values if any
+* Checked for Outliers and duplicated values if any.
+
+## Data Cleaning
+* Dropped the id column since it is of no significance to our model training
+* Imputed null values with knn imputer and simple imputer
+* treated outliers
+
+## Feature Engineering
+* applied one hot encoding to is_smoking and sex columns and converted them to binary values
+* separated continuos and discrete features 
+* checked corelation with heatmap and found sysBP and diaBp corelated
+* created a new feature avg with the help of sysBP and diaBP
+
+## Exploratory Data Analysis
+* Checked the target variable and fount it to e imbalanced. Risk to non risk rate ratio was 1:6 approx.
+* checked for the distribution of independent variables with distplot and with the hue of target variable.
+* Visualized age vs sex and found out the patients above age 50 are at high risk.
+* Men are more likely to have risk related to heart.
+
+Model training :
+* Splitted data into indepdendent and dependent variable
+* handled imbalanced target variable with the help of SMOTE
+* Standardized resampled data using StandardScaler
+* defined funvtions to train linear and non-linear models and get their performance metrics
+* Performance metrics used were accuracy_score,precision_score, recall_score,f1_score
+* trained models such as logistic regression, KNN, Decision trees,SVM,Random Forest and
+Found Random Forest as the best model with Recall of 93%.
