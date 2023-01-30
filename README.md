@@ -50,7 +50,7 @@ The dataset is from an ongoing cardiovascular study on residents of the town of 
 * Visualized age vs sex and found out the patients above age 50 are at high risk.
 * Men are more likely to have risk related to heart.
 
-Model training :
+## Model training :
 * Splitted data into indepdendent and dependent variable
 * handled imbalanced target variable with the help of SMOTE
 * Standardized resampled data using StandardScaler
